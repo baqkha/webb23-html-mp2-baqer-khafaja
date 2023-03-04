@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/superchicken-logo.png"> <!--Favicon-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Super Chicken</title>
+    <div class="title"> <!--Home page button-->
+        <a class="homepage" href="index.html" style="text-decoration: none;">
+            Super chicken</a>
+    </div>
+</head>
+
+<body>
+    <main>
+        <div>
+            <img class="background" src="img/kebab.jpg" alt="">
+        </div>
+        <header>
+            <div class="navbar">
+                <nav>
+                    <a href="menu.html">Meny</a>
+                    <a href="boka.html">Boka bord</a>
+                </nav>
+            </div>
+        </header>
+    
+        <div class="book-title">
+            <h1>Boka bord</h1>
+        </div>
+    
+        <div class="form-container"> <!-- Formulär -->
+            <form action="">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required placeholder="Ange namn">
+    
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for="time">Tid:</label>
+                <input type="time" id="time" name="time" required>
+    
+                <label for="additional-info">Övriga önskemål:</label>
+                <textarea id="additional-info" name="additional-info"></textarea>
+    
+                <button type="submit">Skicka in</button>
+            </form>
+        </div>
+
+    </main>
+    
+
+    <footer>
+        <div class="social-media">
+          <h3>Kontakta oss</h3>
+          <div class="social-links">
+            <a href="https://www.facebook.com/superchickenisverige/" target="_blank"><i class="fa fa-facebook" id="fb"></i></a>
+            <a href="https://www.instagram.com/superchickenisverige/?utm_medium=copy_link" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <p><i class="fa fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/Super+Chicken/@55.5910984,13.0496313,15z/data=!4m5!3m4!1s0x0:0xad7477d221a10063!8m2!3d55.5880512!4d13.0541295" style="text-decoration: none;" target="_blank">Thomsons väg 34 A 21372 Malmö</a></p>
+          <p><i class="fa fa-phone"></i> <a href="tel:+15555555555" style="text-decoration: none;">+4640216116</a></p>
+          <p><i class="fa fa-envelope"></i> <a href="mailto:info@example.com" style="text-decoration: none;">info@superchicken.se</a></p>
+        </div>
+      </footer>
+    
+</body>
+</html>
